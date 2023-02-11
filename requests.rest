@@ -1,0 +1,18 @@
+GET http://localhost:4001/todos
+
+###
+ //for distinguising methods write triple hash
+
+POST http://localhost:4001/todo/new
+Content-Type: application/json
+{
+    "text":"Start Redux"
+}
+
+###
+
+DELETE http://localhost:4001/todos/delete/63da9864628104d6ff47e2da
+
+###
+PUT http://localhost:4001/todos/complete/63da9bac1e5f1e16e72309aa
+
